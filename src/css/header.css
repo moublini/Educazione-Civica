@@ -1,0 +1,30 @@
+header {
+  height: 6.2rem;
+  padding: 1rem;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo {
+  height: 100%;
+}
+
+.main-nav__links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.main-nav__link {
+  font-size: 1.9rem;
+}
+
+.main-nav__link > a {
+  text-decoration: none;
+  color: var(--color-neutral);
+}
