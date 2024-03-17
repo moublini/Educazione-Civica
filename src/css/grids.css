@@ -6,11 +6,11 @@
 .fonti--list {
   margin: 0 auto;
   padding: 0;
+  max-width: 1440px;
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr 1fr;
   gap: 2rem;
   list-style: none;
-  width: 70%;
   height: 43rem;
 }
 
@@ -52,7 +52,7 @@
 .backdrop__title {
   color: white;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3.1rem;
   text-align: center;
 }
 
