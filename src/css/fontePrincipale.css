@@ -1,0 +1,59 @@
+.card {
+  margin: auto;
+  max-width: 1440px;
+  display: flex;
+  gap: 2rem;
+  height: 43rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.card__immagine {
+  height: 100%;
+  width: 29rem;
+  display: inline-block;
+  object-fit: cover;
+}
+
+.card__contenuto {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card__contenuto > * {
+  margin: 0;
+}
+
+.card__titolo {
+  font-size: 2.5rem;
+}
+
+.card__corpo {
+  font-size: 2rem;
+}
+
+.card__bottone {
+  position: absolute;
+  bottom: 1rem;
+  padding: 1rem;
+  width: auto;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  font-family: inherit;
+  text-transform: uppercase;
+  border-radius: 12px;
+  z-index: 2;
+  background-color: var(--color-button);
+}
+
+.card__fading-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(to bottom, transparent, #ffffff 90%);
+}
