@@ -45,7 +45,7 @@
   border: none;
   font-family: inherit;
   text-transform: uppercase;
-  border-radius: 12px;
+  border-radius: 8px;
   z-index: 2;
   background-color: var(--color-button);
 }
