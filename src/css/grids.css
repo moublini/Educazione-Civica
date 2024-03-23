@@ -21,6 +21,7 @@
 .fonte {
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .fonte a {
@@ -33,6 +34,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: scale 500ms;
 }
 
 .backdrop {
@@ -40,13 +42,11 @@
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: none
-}
-
-.fonte:hover .backdrop {
-  display: flex;
+  opacity: 0;
+  transition: opacity 500ms;
 }
 
 .backdrop__title {
@@ -58,4 +58,14 @@
 
 .backdrop__title > .highlighted {
   color: var(--color-secondary);
+}
+
+.fonte:hover .backdrop,
+.fonte:active .backdrop {
+  opacity: 1;
+}
+
+.fonte:hover .fonte__immagine,
+.fonte:active .fonte__immagine {
+  scale: 1.1;
 }
