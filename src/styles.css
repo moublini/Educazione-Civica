@@ -7,12 +7,30 @@
 
 html {
   font-family: 'Montserrat', Verdana, sans-serif;
+  height: 100%;
   scroll-behavior: smooth;
   font-size: 10px;
 }
 
 body {
   margin: 0;
+  height: 100%;
+  display: grid;
+  grid-template: "header" 6.2rem
+                 "main" auto
+                 "footer" fit-content(12rem);
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
 }
 
 .main__content {
