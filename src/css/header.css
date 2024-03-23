@@ -33,7 +33,8 @@ header {
   transition: width 500ms;
 }
 
-.main-nav__link:hover::after {
+.main-nav__link:hover::after,
+.main-nav__link:active::after {
   width: 100%;
 }
 
