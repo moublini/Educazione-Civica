@@ -8,8 +8,10 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="./css/fontiPage.css">
   <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/fontePrincipale.css">
+  <link rel="stylesheet" href="./css/articleCard.css">
+  <link rel="stylesheet" href="./css/lists.css">
   <link rel="stylesheet" href="./css/grids.css">
+  <link rel="stylesheet" href="./css/autori.css">
   <link rel="stylesheet" href="./css/footer.css">
 </head>
 
@@ -19,13 +21,13 @@
     <nav class="main-nav">
       <ul class="main-nav__links">
         <li class="main-nav__link">
-          <a href="#introduction">Home</a>
+          <a href="./index.html">Home</a>
         </li>
         <li class="main-nav__link">
-          <a href="#fontePrincipale">Principale</a>
+          <a href="./fonti.html#fontiRinnovabili">Fonti Rinnovabili</a>
         </li>
         <li class="main-nav__link">
-          <a href="#altreFonti">Fonti</a>
+          <a href="./fonti.html#fontiNonRinnovabili">Fonti Non Rinnovabili</a>
         </li>
         <li class="main-nav__link">
           <a href="#crediti">Crediti</a>
@@ -34,10 +36,11 @@
     </nav>
   </header>
   <main>
+    <img src="../assets/fontirinnovabili.jpg" alt="Fonti Rinnovabili" class="main__immagine">
     <div class="main__content">
       <h1 class="content__titolo">Fonti di Energia</h1>
       <section id="fontiRinnovabili">
-        <h2 class="content__sottotitolo">Le energie Rinnovabili</h2>
+        <h2 class="content__sottotitolo">Fonti di energia rinnovabili</h2>
         <p class="corpo">
           Il bisogno di fonti di energia rinnovabili nascono dal problema della <a href="./index.html"
             class="corpo--link">sostenibilità ambientale</a>. Massa luctus faucibus
@@ -57,48 +60,46 @@
           etiam. Leo
           varius ut ac metus aliquam nibh. Tellus justo adipiscing eu tellus auctor.
         </p>
-        <article id="fontePrincipale">
-          <div class="card">
-            <img src="../assets/energia-eolica.jpg" alt="Energia eolica" class="card__immagine">
-            <div class="card__contenuto">
-              <h2 class="card__titolo">Energia Eolica</h2>
-              <p class="card__corpo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quod earum odit
-                odio magnam illo voluptates, ad eos deleniti sint dolore vero porro quae repellendus quibusdam! Earum
-                sit
-                nesciunt blanditiis?
-                Temporibus ab, natus sed odio veniam dolorum optio incidunt, quibusdam, hic minima officia totam modi
-                autem perferendis laborum. Odit vero ipsa voluptates autem sit eveniet, adipisci tenetur dignissimos ad
-                non!
-                Eum officia harum quas reprehenderit accusantium iure soluta alias eos maiores, dignissimos labore
-                voluptatum ex dolores praesentium sequi quidem laboriosam tempora magnam aut aspernatur a officiis
-                molestiae. Tempora, delectus soluta!
-                Doloribus, quod perspiciatis officia corrupti iure, praesentium recusandae, aspernatur distinctio error
-                quam natus rem ipsam ratione eum autem corporis voluptatum consequatur eveniet nam dolore laudantium
-                officiis aut? Rem, doloribus omnis.
-                Quia nesciunt labore alias illum excepturi consequuntur rerum! Molestiae, recusandae. Harum suscipit,
-                nihil aliquid assumenda, quasi accusamus vero commodi quibusdam voluptatem, dolore rem maxime itaque
-                soluta! Saepe assumenda eius sit.
-                Labore odio, optio at facilis distinctio obcaecati suscipit, adipisci quo aliquid ipsa illum perferendis
-                ea? Alias pariatur eaque nobis officia ducimus, soluta minima praesentium, porro sit facilis inventore
-                assumenda molestiae?
-                Magnam, illo iure. Numquam excepturi, nobis alias aut aliquam itaque enim, saepe tempore eligendi
-                possimus
-                ut consectetur consequatur dignissimos blanditiis totam aspernatur debitis, quaerat atque ratione
-                distinctio qui minima deleniti.
-                Atque similique, ratione consectetur dicta deleniti doloribus exercitationem illo corrupti perferendis,
-                quia iste. Voluptate, quisquam reiciendis quo excepturi consectetur quis numquam vero eius? Quae tenetur
-                beatae sequi quis, odio facilis.
-                Ratione asperiores soluta neque, ducimus dignissimos iure? Aperiam, explicabo maiores! Distinctio
-                dolorem
-                consequuntur fugit libero voluptatum ducimus reiciendis ullam qui quis dolorum, dolore molestias,
-                veritatis recusandae nisi commodi, quae accusamus.
-                Suscipit ullam quasi consectetur inventore accusamus. Laboriosam nesciunt mollitia asperiores quae,
-                ipsum
-                saepe fugit debitis laudantium dignissimos illum, eum, nostrum accusamus ex quo numquam aliquid modi
-                cumque voluptatem provident enim!</p>
-              <button type="button" class="card__bottone">Leggi di più</button>
-              <div class="card__fading-background"></div>
-            </div>
+        <article class="card">
+          <img src="../assets/energia-eolica.jpg" alt="Energia eolica" class="card__immagine">
+          <div class="card__contenuto">
+            <h2 class="card__titolo">Energia Eolica</h2>
+            <p class="card__corpo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quod earum odit
+              odio magnam illo voluptates, ad eos deleniti sint dolore vero porro quae repellendus quibusdam! Earum
+              sit
+              nesciunt blanditiis?
+              Temporibus ab, natus sed odio veniam dolorum optio incidunt, quibusdam, hic minima officia totam modi
+              autem perferendis laborum. Odit vero ipsa voluptates autem sit eveniet, adipisci tenetur dignissimos ad
+              non!
+              Eum officia harum quas reprehenderit accusantium iure soluta alias eos maiores, dignissimos labore
+              voluptatum ex dolores praesentium sequi quidem laboriosam tempora magnam aut aspernatur a officiis
+              molestiae. Tempora, delectus soluta!
+              Doloribus, quod perspiciatis officia corrupti iure, praesentium recusandae, aspernatur distinctio error
+              quam natus rem ipsam ratione eum autem corporis voluptatum consequatur eveniet nam dolore laudantium
+              officiis aut? Rem, doloribus omnis.
+              Quia nesciunt labore alias illum excepturi consequuntur rerum! Molestiae, recusandae. Harum suscipit,
+              nihil aliquid assumenda, quasi accusamus vero commodi quibusdam voluptatem, dolore rem maxime itaque
+              soluta! Saepe assumenda eius sit.
+              Labore odio, optio at facilis distinctio obcaecati suscipit, adipisci quo aliquid ipsa illum perferendis
+              ea? Alias pariatur eaque nobis officia ducimus, soluta minima praesentium, porro sit facilis inventore
+              assumenda molestiae?
+              Magnam, illo iure. Numquam excepturi, nobis alias aut aliquam itaque enim, saepe tempore eligendi
+              possimus
+              ut consectetur consequatur dignissimos blanditiis totam aspernatur debitis, quaerat atque ratione
+              distinctio qui minima deleniti.
+              Atque similique, ratione consectetur dicta deleniti doloribus exercitationem illo corrupti perferendis,
+              quia iste. Voluptate, quisquam reiciendis quo excepturi consectetur quis numquam vero eius? Quae tenetur
+              beatae sequi quis, odio facilis.
+              Ratione asperiores soluta neque, ducimus dignissimos iure? Aperiam, explicabo maiores! Distinctio
+              dolorem
+              consequuntur fugit libero voluptatum ducimus reiciendis ullam qui quis dolorum, dolore molestias,
+              veritatis recusandae nisi commodi, quae accusamus.
+              Suscipit ullam quasi consectetur inventore accusamus. Laboriosam nesciunt mollitia asperiores quae,
+              ipsum
+              saepe fugit debitis laudantium dignissimos illum, eum, nostrum accusamus ex quo numquam aliquid modi
+              cumque voluptatem provident enim!</p>
+            <button type="button" class="card__bottone">Leggi di più</button>
+            <div class="card__fading-background"></div>
           </div>
         </article>
         <section id="altreFonti">
@@ -139,16 +140,12 @@
         </section>
       </section>
       <section id="fontiNonRinnovabili">
-        <h2 class="content__sottotitolo">Le energie Rinnovabili</h2>
-        <p class="corpo">
-          Il bisogno di fonti di energia rinnovabili nascono dal problema della <a href="./index.html"
-            class="corpo--link">sostenibilità ambientale</a>. Massa luctus faucibus
-          malesuada risus aenean ornare nibh phasellus varius. Risus et turpis amet sit porta vulputate praesent
-          facilisi
-          fermentum. Posuere pulvinar sed urna varius bibendum arcu. Sit proin nec scelerisque urna nisi sit scelerisque
-          porttitor. Eget blandit mollis pellentesque sit vitae habitasse. Porttitor mi hac nullam facilisis venenatis
-          volutpat.
-        </p>
+        <h2 class="content__sottotitolo">Fonti di energia non rinnovabili</h2>
+        <p class="corpo"> Il bisogno di fonti di energia rinnovabili nascono dal problema della <a href="./index.html"
+            class="corpo--link">sostenibilità ambientale</a>. Massa luctus faucibus malesuada risus aenean ornare nibh
+          phasellus varius. Risus et turpis amet sit porta vulputate praesent facilisi fermentum. Posuere pulvinar sed
+          urna varius bibendum arcu. Sit proin nec scelerisque urna nisi sit scelerisque porttitor. Eget blandit mollis
+          pellentesque sit vitae habitasse. Porttitor mi hac nullam facilisis venenatis volutpat. </p>
         <h3 class="corpo--sottotitolo">Sottotitolo</h3>
         <p class="corpo">
           Nec odio et in sit pellentesque diam lacinia leo nibh. Faucibus libero diam consequat lobortis fringilla vitae
@@ -159,10 +156,48 @@
           etiam. Leo
           varius ut ac metus aliquam nibh. Tellus justo adipiscing eu tellus auctor.
         </p>
-        <div class="card">
-          <img src="../assets/energia-eolica.jpg" alt="Energia eolica" class="card__immagine">
+        <article class="card">
+          <img src="../assets/fontinonrinnovabili.jpg" alt="Fonti non rinnovabili" class="card__immagine">
           <div class="card__contenuto">
-            <h2 class="card__titolo">Energia Eolica</h2>
+            <h2 class="card__titolo">Titolo</h2>
+            <p class="card__corpo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quod earum odit
+              odio magnam illo voluptates, ad eos deleniti sint dolore vero porro quae repellendus quibusdam! Earum
+              sit nesciunt blanditiis? Temporibus ab, natus sed odio veniam dolorum optio incidunt, quibusdam, hic
+              minima officia totam modi autem perferendis laborum. Odit vero ipsa voluptates autem sit eveniet, adipisci
+              tenetur dignissimos ad non! Eum officia harum quas reprehenderit accusantium iure soluta alias eos
+              maiores, dignissimos labore voluptatum ex dolores praesentium sequi quidem laboriosam tempora magnam aut
+              aspernatur a officiis molestiae. Tempora, delectus soluta! Doloribus, quod perspiciatis officia corrupti
+              iure, praesentium recusandae, aspernatur distinctio error quam natus rem ipsam ratione eum autem corporis
+              voluptatum consequatur eveniet nam dolore laudantium officiis aut? Rem, doloribus omnis.
+              Quia nesciunt labore alias illum excepturi consequuntur rerum! Molestiae, recusandae. Harum suscipit,
+              nihil aliquid assumenda, quasi accusamus vero commodi quibusdam voluptatem, dolore rem maxime itaque
+              soluta! Saepe assumenda eius sit.
+              Labore odio, optio at facilis distinctio obcaecati suscipit, adipisci quo aliquid ipsa illum perferendis
+              ea? Alias pariatur eaque nobis officia ducimus, soluta minima praesentium, porro sit facilis inventore
+              assumenda molestiae?
+              Magnam, illo iure. Numquam excepturi, nobis alias aut aliquam itaque enim, saepe tempore eligendi
+              possimus
+              ut consectetur consequatur dignissimos blanditiis totam aspernatur debitis, quaerat atque ratione
+              distinctio qui minima deleniti.
+              Atque similique, ratione consectetur dicta deleniti doloribus exercitationem illo corrupti perferendis,
+              quia iste. Voluptate, quisquam reiciendis quo excepturi consectetur quis numquam vero eius? Quae tenetur
+              beatae sequi quis, odio facilis.
+              Ratione asperiores soluta neque, ducimus dignissimos iure? Aperiam, explicabo maiores! Distinctio
+              dolorem
+              consequuntur fugit libero voluptatum ducimus reiciendis ullam qui quis dolorum, dolore molestias,
+              veritatis recusandae nisi commodi, quae accusamus.
+              Suscipit ullam quasi consectetur inventore accusamus. Laboriosam nesciunt mollitia asperiores quae,
+              ipsum
+              saepe fugit debitis laudantium dignissimos illum, eum, nostrum accusamus ex quo numquam aliquid modi
+              cumque voluptatem provident enim!</p>
+            <button type="button" class="card__bottone">Leggi di più</button>
+            <div class="card__fading-background"></div>
+          </div>
+        </article>
+        <article class="card inverso">
+          <img src="../assets/energianucleare.jpg" alt="Energia Nucleare" class="card__immagine">
+          <div class="card__contenuto">
+            <h2 class="card__titolo">Titolo</h2>
             <p class="card__corpo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quod earum odit
               odio magnam illo voluptates, ad eos deleniti sint dolore vero porro quae repellendus quibusdam! Earum
               sit
@@ -200,50 +235,58 @@
             <button type="button" class="card__bottone">Leggi di più</button>
             <div class="card__fading-background"></div>
           </div>
-        </div>
-        <div class="card inverso">
-          <img src="../assets/energia-eolica.jpg" alt="Energia eolica" class="card__immagine">
-          <div class="card__contenuto">
-            <h2 class="card__titolo">Energia Eolica</h2>
-            <p class="card__corpo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quod earum odit
-              odio magnam illo voluptates, ad eos deleniti sint dolore vero porro quae repellendus quibusdam! Earum
-              sit
-              nesciunt blanditiis?
-              Temporibus ab, natus sed odio veniam dolorum optio incidunt, quibusdam, hic minima officia totam modi
-              autem perferendis laborum. Odit vero ipsa voluptates autem sit eveniet, adipisci tenetur dignissimos ad
-              non!
-              Eum officia harum quas reprehenderit accusantium iure soluta alias eos maiores, dignissimos labore
-              voluptatum ex dolores praesentium sequi quidem laboriosam tempora magnam aut aspernatur a officiis
-              molestiae. Tempora, delectus soluta!
-              Doloribus, quod perspiciatis officia corrupti iure, praesentium recusandae, aspernatur distinctio error
-              quam natus rem ipsam ratione eum autem corporis voluptatum consequatur eveniet nam dolore laudantium
-              officiis aut? Rem, doloribus omnis.
-              Quia nesciunt labore alias illum excepturi consequuntur rerum! Molestiae, recusandae. Harum suscipit,
-              nihil aliquid assumenda, quasi accusamus vero commodi quibusdam voluptatem, dolore rem maxime itaque
-              soluta! Saepe assumenda eius sit.
-              Labore odio, optio at facilis distinctio obcaecati suscipit, adipisci quo aliquid ipsa illum perferendis
-              ea? Alias pariatur eaque nobis officia ducimus, soluta minima praesentium, porro sit facilis inventore
-              assumenda molestiae?
-              Magnam, illo iure. Numquam excepturi, nobis alias aut aliquam itaque enim, saepe tempore eligendi
-              possimus
-              ut consectetur consequatur dignissimos blanditiis totam aspernatur debitis, quaerat atque ratione
-              distinctio qui minima deleniti.
-              Atque similique, ratione consectetur dicta deleniti doloribus exercitationem illo corrupti perferendis,
-              quia iste. Voluptate, quisquam reiciendis quo excepturi consectetur quis numquam vero eius? Quae tenetur
-              beatae sequi quis, odio facilis.
-              Ratione asperiores soluta neque, ducimus dignissimos iure? Aperiam, explicabo maiores! Distinctio
-              dolorem
-              consequuntur fugit libero voluptatum ducimus reiciendis ullam qui quis dolorum, dolore molestias,
-              veritatis recusandae nisi commodi, quae accusamus.
-              Suscipit ullam quasi consectetur inventore accusamus. Laboriosam nesciunt mollitia asperiores quae,
-              ipsum
-              saepe fugit debitis laudantium dignissimos illum, eum, nostrum accusamus ex quo numquam aliquid modi
-              cumque voluptatem provident enim!</p>
-            <button type="button" class="card__bottone">Leggi di più</button>
-            <div class="card__fading-background"></div>
-          </div>
-        </div>
+        </article>
       </section>
+      <div class="bi-list">
+        <div class="list">
+          <h2 class="list-heading">Vantaggi</h2>
+          <ul class="ok-list">
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+          </ul>
+        </div>
+        <div class="list">
+          <h2 class="list-heading">Svantaggi</h2>
+          <ul class="no-list">
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+            <li>lorem ipsumr</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <ul class="article--list">
+          <li class="fonte">
+            <a>
+              <img src="../assets/sostenibilitaambientale.jpg" alt="Sostenibilità Ambientale" class="fonte__immagine">
+              <div class="backdrop">
+                <p class="backdrop__title">Sostenibilità<br><span class="highlighted">Ambientale</span></p>
+              </div>
+            </a>
+          </li>
+          <li class="fonte">
+            <a>
+              <img src="../assets/fontinonrinnovabili.jpg" alt="Fonti Non Rinnovabili" class="fonte__immagine">
+              <div class="backdrop">
+                <p class="backdrop__title">Fonti<br><span class="highlighted">Non Rinnovabili</span></p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <h3 class="corpo--sottotitolo">Autori</h3>
+      <ul class="autori">
+        <li class="autore">Giuseppe Sollima</li>
+        <li class="autore">Giuseppe Sollima</li>
+        <li class="autore">Giuseppe Sollima</li>
+      </ul>
     </div>
   </main>
   <footer class="footer" id="crediti">
@@ -251,24 +294,12 @@
     <div class="footer__credits">
       <img src="../assets/logo.png" alt="Brand brand logo" class="footer__brand-logo">
       <ul class="footer__crediti">
-        <li class="footer__credito">
-          Cristiano Vicari
-        </li>
-        <li class="footer__credito">
-          Ilaria Scattina
-        </li>
-        <li class="footer__credito">
-          Costanza Leone
-        </li>
-        <li class="footer__credito">
-          Massimiliano Patti
-        </li>
-        <li class="footer__credito">
-          Giuseppe Sollima
-        </li>
-        <li class="footer__credito">
-          Giuseppe Di Muni
-        </li>
+        <li class="footer__credito">Cristiano Vicari</li>
+        <li class="footer__credito">Ilaria Scattina</li>
+        <li class="footer__credito">Costanza Leone</li>
+        <li class="footer__credito">Massimiliano Patti</li>
+        <li class="footer__credito">Giuseppe Sollima</li>
+        <li class="footer__credito">Giuseppe Di Muni</li>
       </ul>
     </div>
     <p class="footer__burla">Copyright 2024 Gruppo Ed. Civica. Tutti i diritti riservati</p>

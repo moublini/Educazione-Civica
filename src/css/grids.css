@@ -1,16 +1,14 @@
-.fonti--heading {
-  text-align: center;
-  font-size: 3.8rem;
+.fonti--list, .article--list {
+  margin: 0 auto;
+  padding: 0;
+  gap: 2rem;
+  list-style: none;
 }
 
 .fonti--list {
-  margin: 0 auto;
-  padding: 0;
   max-width: 1440px;
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr 1fr;
-  gap: 2rem;
-  list-style: none;
   height: 53rem;
 }
 
@@ -18,8 +16,15 @@
   grid-column: span 2;
 }
 
+.article--list {
+  display: flex;
+  gap: 2rem;
+  height: 27rem;
+}
+
 .fonte {
   height: 100%;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }

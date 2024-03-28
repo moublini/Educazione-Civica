@@ -26,6 +26,7 @@ header {
 }
 
 main {
+  max-width: 1440px;
   grid-area: main;
 }
 
@@ -33,16 +34,60 @@ footer {
   grid-area: footer;
 }
 
+.main__immagine {
+  object-fit: cover;
+  width: 100%;
+  height: 35rem;
+}
+
 .main__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   margin: 2rem;
+}
+
+.main__content > * {
+  margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
 }
 
+.content__titolo {
+  font-size: 3.8rem;
+}
+
+.content__sottotitolo {
+  font-size: 3.4rem;
+}
+
+.content__titolo, .content__sottotitolo {
+  font-weight: 600;
+  text-align: center;
+}
+
+p.corpo {
+  font-size: 2rem;
+}
+
+a.corpo--link {
+  color: var(--color-secondary);
+}
+
+.corpo--sottotitolo {
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
 @media screen and (min-width: 1440px) {
   html {
     font-size: 10px;
+  }
+
+  main {
+    margin: auto;
   }
 }

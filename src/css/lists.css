@@ -1,0 +1,37 @@
+.bi-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bi-list .list-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+.bi-list .list {
+  font-size: 2rem;
+  width: 50%;
+}
+
+.bi-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bi-list .list:first-child {
+  border-right: 1.5px solid black;
+}
+
+.bi-list .list:last-child {
+  border-left: 1.5px solid black;
+}
+
+ul.ok-list li::marker {
+  content: url('../../assets/doneicon.svg');
+}
+
+ul.no-list li::marker {
+  content: url('../../assets/xicon.svg');
+}

@@ -1,0 +1,10 @@
+#fontiRinnovabili, #fontiNonRinnovabili {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#fontiRinnovabili > *, 
+#fontiNonRinnovabili > * {
+  margin: 0;
+}

@@ -8,6 +8,10 @@
   overflow: hidden;
 }
 
+.card.inverso {
+  flex-direction: row-reverse;
+}
+
 .card__immagine {
   height: 100%;
   width: 29rem;
@@ -16,6 +20,7 @@
 }
 
 .card__contenuto {
+  position: relative;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -36,6 +41,7 @@
 
 .card__bottone {
   position: absolute;
+  left: 1rem;
   bottom: 1rem;
   padding: 1rem;
   width: auto;
@@ -48,6 +54,11 @@
   border-radius: 8px;
   z-index: 2;
   background-color: var(--color-button);
+}
+
+.card.inverso .card__bottone {
+  left: auto;
+  right: 1rem;
 }
 
 .card__fading-background {
