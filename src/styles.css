@@ -55,6 +55,11 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
 }
 
+.main__content img {
+  width: 100%;
+  display: block;
+}
+
 .content__titolo {
   font-size: 3.8rem;
 }
