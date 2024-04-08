@@ -11,6 +11,7 @@
 
 .bi-list .list {
   font-size: 2rem;
+  padding: 1rem;
   width: 50%;
 }
 
@@ -34,4 +35,24 @@ ul.ok-list li::marker {
 
 ul.no-list li::marker {
   content: url('../../assets/xicon.svg');
+}
+
+@media screen and (max-width: 600px) {
+  .bi-list {
+    flex-direction: column;
+  }
+
+  .bi-list .list {
+    width: 100%;
+  }
+
+  .bi-list .list:first-child {
+    border-right: none;
+    border-bottom: 1.5px solid black;
+  }
+
+  .bi-list .list:last-child {
+    border-left: none;
+    border-top: 1.5px solid black;
+  }
 }
